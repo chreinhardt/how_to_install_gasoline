@@ -19,13 +19,13 @@ Clone to the same directory (e.g., ../code/gasoline-ics and ../code/mdl)
 
 ### Gasoline
 Go to the gasoline-ics folder (e.g., cd ../code/gasoline-ics) and type
-´´´
+```
 make null
-´´´
+```
 to compile the code to run on a single CPU or
-´´´
+```
 make pthread
-´´´
+```
 to obtain a version that runs on several threads using pthread.
 
 
