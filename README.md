@@ -15,10 +15,15 @@ This repository provides all instructions on which software is used for collisio
 
 
 ## Installation
-Clone to the same directory (e.g., ../code/gasoline-ics and ../code/mdl)
+Clone all repositories to the same directory (e.g., ./code/gasoline-ics and ./code/mdl) with
+```
+./clone-all.sh
+```
+but keep in mind that some of them are _private_ and require access for this script to work.
+
 
 ### Gasoline
-Go to the gasoline-ics folder (e.g., cd ../code/gasoline-ics) and type
+Go to the gasoline-ics directory (e.g., cd ./code/gasoline-ics) and type
 ```
 make null
 ```
@@ -30,4 +35,13 @@ to obtain a version that runs on several threads using pthread.
 
 
 ### tipsy
-Follow the instructions on GitHub 
+Go to the tipsy (e.g., cd ./code/tipsy) and then to then to the code directory and type
+```
+./configure
+```
+to generate a Makefile. Then type
+```
+make
+```
+to compile the code. Detailed instructions are available on the official GitHib page.
+
