@@ -51,5 +51,10 @@ Make sure that ```libaw7``` is installed with header files:
 sudo apt-get install libxaw7-dev
 ```
 
+For Ubuntu the termcap library is part of ```libncurses5```
+```
+sudo apt-get install libncurses5-dev
+`````
+
 
 
