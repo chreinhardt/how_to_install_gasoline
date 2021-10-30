@@ -45,3 +45,11 @@ make
 ```
 to compile the code. Detailed instructions are available on the official GitHib page.
 
+#### Notes
+Make sure that ```libaw7``` is installed with header files:
+```
+sudo apt-get install libxaw7-dev
+```
+
+
+
