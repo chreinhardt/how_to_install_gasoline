@@ -33,6 +33,12 @@ make pthread
 ```
 to obtain a version that runs on several threads using pthread.
 
+### Note
+Make sure that GSL () is installed:
+```
+sudo apt-get install libgsl-dev
+```
+
 
 ### tipsy
 Go to the tipsy (e.g., cd ./code/tipsy) and then to then to the code directory and type
