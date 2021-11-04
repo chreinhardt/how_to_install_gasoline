@@ -12,7 +12,7 @@ This repository provides all instructions on which software is used for collisio
 - [ ballic ](https://github.com/chreinhardt/ballic-array): Generate low noise particle representation of planets
 - collide : Generate initial conditions for collisions
 - [ tipsytools ](https://bitbucket.org/creinh/tipsytools/src/master/): Tools I wrote over the years to work with tipsy binary files
-
+- tipsy_wrapper
 
 ## Installation
 Clone all repositories to the same directory (e.g., ./code/gasoline-ics and ./code/mdl) with
