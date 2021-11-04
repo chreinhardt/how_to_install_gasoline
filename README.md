@@ -10,7 +10,7 @@ This repository provides all instructions on which software is used for collisio
 - [ ANEOSmaterial ](https://github.com/Halbarath/ANEOSmaterial): Interface for the ANalytic Equation Of State (ANEOS, M-ANEOS)
 - [ tipsy ](https://github.com/N-BodyShop/tipsy):  The Theoretical Image Processing SYstem for visualizing/analyzing n-body simulations
 - [ ballic ](https://github.com/chreinhardt/ballic-array): Generate low noise particle representation of planets
-- collide : Generate initial conditions for collisions
+- [ collide ]( https://github.com/chreinhardt/collide ): Generate initial conditions for collisions
 - [ tipsytools ](https://bitbucket.org/creinh/tipsytools/src/master/): Tools I wrote over the years to work with tipsy binary files
 - [ tipsy_wrapper ]( https://github.com/chreinhardt/tipsy_wrapper ): A C++ wrapper for the Tipsy API
 
