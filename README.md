@@ -21,6 +21,21 @@ Clone all repositories to the same directory (e.g., ./code/gasoline-ics and ./co
 ```
 but keep in mind that some of them are _private_ and require access for this script to work.
 
+### Prerequisits
+- First make sure that all required compilers are installed (e.g., ```gcc```).
+- Some modules of the ```EOSlib``` require [ GSL ]( https://www.gnu.org/software/gsl/ ). If you use Ubuntu you can install it with:
+```
+sudo apt-get install libgsl-dev
+```
+- ```Tipsy``` requires ```libaw7``` with header files and ```termcap```:
+```
+sudo apt-get install libxaw7-dev
+```
+and
+```
+sudo apt-get install libncurses5-dev
+`````
+
 
 ### Gasoline
 Go to the gasoline-ics directory (e.g., cd ./code/gasoline-ics) and type
