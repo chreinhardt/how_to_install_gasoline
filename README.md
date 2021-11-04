@@ -38,7 +38,7 @@ sudo apt-get install libncurses5-dev
 
 
 ### Gasoline
-Go to the gasoline-ics directory (e.g., cd ./code/gasoline-ics) and type
+Go to the gasoline-ics directory (e.g., ```cd ./code/gasoline-ics```) and type
 ```
 make null
 ```
@@ -48,15 +48,10 @@ make pthread
 ```
 to obtain a version that runs on several threads using pthread.
 
-### Note
-Make sure that GSL () is installed:
-```
-sudo apt-get install libgsl-dev
-```
-
+*Note:* Make sure that ```mdl``` and ```GSL``` are installed before compiling the code.
 
 ### tipsy
-Go to the tipsy (e.g., cd ./code/tipsy) and then to then to the code directory and type
+Go to the tipsy (e.g., ```cd ./code/tipsy```) and then to then to the code directory and type
 ```
 ./configure
 ```
@@ -66,16 +61,19 @@ make
 ```
 to compile the code. Detailed instructions are available on the official GitHib page.
 
-#### Notes
-Make sure that ```libaw7``` is installed with header files:
-```
-sudo apt-get install libxaw7-dev
-```
+*Note:* Make sure that ```libaw7``` and ```termcap``` are installed with header files and rerun ```configure``` after installing them.
 
-For Ubuntu the termcap library is part of ```libncurses5```
+### ballic
+Go to the ballic directory  (e.g., ```cd ./code/ballic-array```) and compile required part of the code with
 ```
-sudo apt-get install libncurses5-dev
-`````
+make solve_model_single
+```
+to solve a single component 1D model or
+```
+make ballic.solve_model_single
+```
+obtain a particle representation of a single component 1D model.
+
 
 
 
