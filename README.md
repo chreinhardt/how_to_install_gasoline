@@ -27,7 +27,7 @@ but keep in mind that some of them are _private_ and require access for this scr
 ```
 sudo apt-get install libgsl-dev
 ```
-- ```Tipsy``` requires ```libaw7``` with header files and ```termcap```:
+- ```tipsy``` requires ```libaw7``` and ```termcap``` with header files, e.g.:
 ```
 sudo apt-get install libxaw7-dev
 ```
