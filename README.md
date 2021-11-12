@@ -13,6 +13,7 @@ This repository provides all instructions on which software is used for collisio
 - [ collide ]( https://github.com/chreinhardt/collide ): Generate initial conditions for collisions
 - [ tipsytools ](https://bitbucket.org/creinh/tipsytools/src/master/): Tools I wrote over the years to work with tipsy binary files
 - [ tipsy_wrapper ]( https://github.com/chreinhardt/tipsy_wrapper ): A C++ wrapper for the Tipsy API
+- [ skid ]( https://github.com/N-BodyShop/skid ): A group finder for n-body simulations
 
 ## Installation
 Clone all repositories to the same directory (e.g., ./code/gasoline-ics and ./code/mdl) with
