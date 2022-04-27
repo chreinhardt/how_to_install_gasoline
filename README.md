@@ -37,6 +37,17 @@ and
 sudo apt-get install libncurses5-dev
 `````
 
+If the version of your glibc library is >= 2.32 (e.g., if you use Ubuntu 22.04) you have to install the rpc library:
+```
+sudo apt-get install libtirpc-dev
+```
+Since all the software expects the rpc library to be installed at ```/usr/include/rpc``` you have to make a symbolic link with
+```
+cd /usr/include/rpc
+sudo ln -s tirpc/rpc .
+sudo ln -s tirpc/netconfig.h .
+```
+for the software to compile. Note that the library has to be explicitly included with ```-ltirpc``` in the Makefile.
 
 ### Gasoline
 Go to the gasoline-ics directory (e.g., ```cd ./code/gasoline-ics```) and type
