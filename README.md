@@ -43,8 +43,8 @@ sudo apt-get install libtirpc-dev
 ```
 Since all the software expects the rpc library to be installed at ```/usr/include/rpc``` you have to make a symbolic link with
 ```
-cd /usr/include/rpc
-sudo ln -s tirpc/rpc .
+cd /usr/include
+sudo ln -s tirpc/rpc/* rpc
 sudo ln -s tirpc/netconfig.h .
 ```
 for the software to compile. Note that the library has to be explicitly included with ```-ltirpc``` in the Makefile.
